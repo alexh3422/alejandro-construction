@@ -6,8 +6,9 @@
 
 .header {
     display: flex;
-text-align: center;
- 
+    flex-wrap: wrap;
+    text-align: center;
+    
     justify-content: center;
     align-items: center;
     padding: 80px;
@@ -36,6 +37,8 @@ text-align: center;
 
 
 ul {
+    display: flex;
+    flex-wrap: wrap;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -89,7 +92,7 @@ ul {
     display: block;
   }
 
-
+ 
 #main {
     display: flex;
     margin-top: 20vh;

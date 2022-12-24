@@ -1,5 +1,5 @@
 * {
-      color: black;
+      color: white;
       text-align: center;
         
 }
@@ -16,6 +16,8 @@
     background-color: white;
     top: 0;
     left: 0;
+
+
    
 }
 
@@ -97,7 +99,16 @@ ul {
     display: flex;
     margin-top: 20vh;
 justify-content: center;
-   
+  
+}
+
+main img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 

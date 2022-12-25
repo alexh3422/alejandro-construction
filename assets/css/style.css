@@ -22,7 +22,7 @@
     top: 0;
     left: 0;
     outline: 20px solid white;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
 
 
    
@@ -130,9 +130,15 @@ main img {
 .btn  {
     width: 80px;
     height:50px;
-    background-color: #7c1526;
+    background-color: #333;
     font-size: 25px;
 }
+
+.btn:hover {
+    background-color: #7c1526;
+    color: white;
+}
+
 .card {
     display: flex;
     flex-wrap: wrap;

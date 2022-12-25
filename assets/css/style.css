@@ -8,14 +8,21 @@
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    align-items: center;
     
     justify-content: center;
-    align-items: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  
+
     padding: 80px;
     font-family: 'Roboto', sans-serif;
     background-color: white;
     top: 0;
     left: 0;
+    outline: 20px solid white;
+    margin-bottom: 30px;
 
 
    
@@ -31,16 +38,24 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.header nav {
+    display : flex;
+    flex-wrap: wrap;
+    float: left;
+    left: 0;
+    width: 100%;
+
+}
 
 
 
 
 
 
-
-ul {
+.header ul {
     display: flex;
     flex-wrap: wrap;
+    justify-content: left;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -49,6 +64,7 @@ ul {
     width: fit-content;
     height: fit-content;
     float: left;
+    left: 0;
   }
   
   li {
@@ -121,7 +137,7 @@ main img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    color: #7c1526;
+ 
     width: 300px;
     height: 300px;
     background-color: white;
